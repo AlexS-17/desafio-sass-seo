@@ -1,3 +1,33 @@
-.nav{
-    color: $black;
+@import "../base/variables";
+@import "../base/mixins";
+
+.nav-principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    @include tablet{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    a{
+        text-align: center;
+        color: $white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        @include tablet{
+            margin-bottom: 0;
+        }
+
+        &:hover{
+            color: $secundary;
+        }
+
+        &.activo{
+            color: $secundary;
+        }
+    }
 }

@@ -1,7 +1,15 @@
+// Base
+
 @import "./base/normalize";
 @import "./base/variables";
 @import "./base/general";
-@import "./base/utilities"
+@import "./base/utilities";
+
+// Header
+
+@import "./header/header";
+@import "./header/nav";
+@import "./header/nav-bar";
 
 
 

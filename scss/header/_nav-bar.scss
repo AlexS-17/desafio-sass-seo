@@ -1,0 +1,23 @@
+@import "../base/mixins";
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+
+    @include tablet{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 50%;
+        margin: 0 auto;
+
+        @include tablet{
+            width: 20rem;
+            margin: 0;
+        }
+
+    }
+}

@@ -345,5 +345,82 @@ h3 {
 .text-center {
   text-align: center; }
 
-.bg-primary {
+.primary {
   background-color: #ffc8dd; }
+
+.header {
+  padding: 5rem 0;
+  position: relative; }
+  @media (min-width: 768px) {
+    .header {
+      min-height: 70rem; } }
+  @media (min-width: 480px) {
+    .header {
+      padding: 4rem 0; } }
+  @media (min-width: 768px) {
+    .header {
+      padding: 3rem; } }
+  @media (min-width: 1024px) {
+    .header {
+      padding: 2rem; } }
+  .header::before {
+    content: "";
+    background-color: #212529;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .6; }
+  .header .contenido-header {
+    position: relative; }
+    .header .contenido-header h1 {
+      text-align: center;
+      color: #f8f9fa;
+      text-transform: uppercase;
+      margin-top: 5rem; }
+      @media (min-width: 768px) {
+        .header .contenido-header h1 {
+          margin-top: 10rem; } }
+
+.header-inicio {
+  background-image: url("/img/6799670.webp"); }
+
+.nav-principal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem; }
+  @media (min-width: 768px) {
+    .nav-principal {
+      flex-direction: row;
+      gap: 1rem; } }
+  .nav-principal a {
+    text-align: center;
+    color: #f8f9fa;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem; }
+    @media (min-width: 768px) {
+      .nav-principal a {
+        margin-bottom: 0; } }
+    .nav-principal a:hover {
+      color: #bde0fe; }
+    .nav-principal a.activo {
+      color: #bde0fe; }
+
+.nav-bar {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .nav-bar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; } }
+  .nav-bar .logo {
+    width: 50%;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .nav-bar .logo {
+        width: 20rem;
+        margin: 0; } }

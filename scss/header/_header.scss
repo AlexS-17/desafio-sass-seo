@@ -1,3 +1,56 @@
+@import "../base/variables";
+@import "../base/mixins";
+
 .header{
-    color:$black;
+    padding: 5rem 0;
+    position: relative;
+
+    @include tablet{
+        min-height: 70rem;
+    }
+    
+    @include phone{
+        padding: 4rem 0;
+    }
+
+    @include tablet{
+        padding: 3rem;
+    }
+
+    @include desktop{
+        padding: 2rem;
+    }
+
+    &::before{
+
+        content: "";
+        background-color: $black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .6;
+    }
+    
+    .contenido-header{
+        position: relative;
+
+        h1{
+            text-align: center;
+            color: $white;
+            text-transform: uppercase;
+            margin-top: 5rem;
+
+            @include tablet{
+                margin-top: 10rem;
+            }
+        }
+    }
+}
+
+// Header for each page
+
+.header-inicio{
+    background-image: url("/img/6799670.webp");
 }
