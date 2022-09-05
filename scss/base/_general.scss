@@ -9,13 +9,15 @@ html{
 }
 
 body{
-    font-family: $main-font;
+    font-family: $second-font;
     font-size: 1.6rem;
+    background-color: $pink;
 }
 
 p{
     color: $text-color;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 .container{
@@ -33,18 +35,8 @@ img{
     display: block;
 }
 
-h1, h2, h3{
-    margin: 0 0 $separacion 0;
-}
-
-h1{
-    font-size: 4rem;
-}
-
-h2{
-    font-size: 3.6rem;
-}
-
-h3{
-    font-size: 3.2rem;
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

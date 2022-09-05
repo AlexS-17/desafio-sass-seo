@@ -1,0 +1,31 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.icons{
+    margin-top: 5rem;
+    .icon-list{
+
+        @include tablet{
+
+            @include grid(3, 2rem);
+        }
+
+        li{
+
+            img{
+                margin: 0 auto;
+                width: 15rem;
+                height: 15rem;
+                }
+
+            p{
+                font-family: $third-font;
+                font-size: 3.2rem;
+                color: $primary;
+            }
+
+        }
+
+
+    }
+}

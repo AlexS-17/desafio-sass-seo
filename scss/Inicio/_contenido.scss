@@ -1,0 +1,14 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.contenido-principal{
+    background-color: $white;
+    padding: 5rem 2rem;
+
+    @include tablet{
+        padding: 10rem;
+        margin-top: -10rem;
+        position: relative;
+
+    }
+}

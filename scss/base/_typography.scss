@@ -1,0 +1,37 @@
+
+h1, h2, h3{
+    font-family: $main-font;
+    margin: 0 0 $separacion 0;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+    color: $primary;
+
+    span{
+        color: $secundary;
+        font-size: 1.8rem;
+        display: block;
+    }
+
+    &::after{
+        content: "";
+        display: block;
+        width: 10rem;
+        height: 8.2rem;
+        margin: 0 auto;
+        background-image: url(/img/img-pokeball-png.png);
+        background-size: 10rem;
+    }
+}
+
+h3{
+    font-size: 3.2rem;
+}
