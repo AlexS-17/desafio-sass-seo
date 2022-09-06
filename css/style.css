@@ -330,6 +330,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block; }
 
 ul {
@@ -340,8 +341,8 @@ ul {
 .text-center {
   text-align: center; }
 
-.primary {
-  background-color: #ffc8dd; }
+.bg-white {
+  background-color: #f8f9fa; }
 
 h1, h2, h3 {
   font-family: "Source Sans Pro", sans-serif;
@@ -374,7 +375,9 @@ h3 {
 
 .header {
   padding: 5rem 0;
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media (min-width: 768px) {
     .header {
       min-height: 70rem; } }
@@ -396,19 +399,28 @@ h3 {
     bottom: 0;
     left: 0;
     opacity: .6; }
-  .header .contenido-header {
+  .header .header-content {
     position: relative; }
-    .header .contenido-header h1 {
+    .header .header-content h1 {
       text-align: center;
       color: #f8f9fa;
       text-transform: uppercase;
       margin-top: 5rem; }
       @media (min-width: 768px) {
-        .header .contenido-header h1 {
+        .header .header-content h1 {
           margin-top: 10rem; } }
 
 .header-inicio {
-  background-image: url("/img/6799670.webp"); }
+  background-image: url(/img/6799670.webp); }
+
+.header-us {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/16/23/20/minecraft-1746541_1280.jpg"); }
+
+.header-tutorial {
+  background-image: url(/img/background-tutorial.png); }
+
+.header-gallery {
+  background-image: url(/img/background-gallery.jpg); }
 
 .nav-principal {
   display: flex;
@@ -526,3 +538,101 @@ h3 {
       grid-column: 3 / 5; }
       .gallery .image:nth-child(10) img {
         width: 94rem; } }
+
+.our-testimonials {
+  padding: 10rem 2rem; }
+  @media (min-width: 768px) {
+    .our-testimonials {
+      padding: 10rem; } }
+  .our-testimonials .testimonial {
+    background-color: #cdb4db;
+    text-align: justify;
+    padding: 2rem 4rem;
+    width: 40rem;
+    margin: 0 auto;
+    border-radius: 1rem; }
+    .our-testimonials .testimonial .autor {
+      text-align: right;
+      font-size: 2.4rem;
+      color: #f8f9fa;
+      font-family: "Mukta", sans-serif; }
+
+.footer {
+  background-color: #ffafcc; }
+  .footer .footer-content {
+    padding: 5rem; }
+    @media (min-width: 768px) {
+      .footer .footer-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem; } }
+  .footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: #f8f9fa;
+    padding: 2rem; }
+
+.footer-box {
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  margin-bottom: 5rem; }
+  @media (min-width: 768px) {
+    .footer-box {
+      margin-bottom: 0; } }
+  .footer-box h3 {
+    font-family: "Mukta", sans-serif;
+    margin: 0 0 1rem 0;
+    font-size: 2.4rem;
+    color: #a2d2ff; }
+  .footer-box p, .footer-box a {
+    font-size: 2rem;
+    margin: 0; }
+
+@media (min-width: 768px) {
+  .content-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; } }
+
+.content-us .image {
+  margin-bottom: 5rem; }
+  @media (min-width: 768px) {
+    .content-us .image {
+      margin: 0 2rem 0 0; } }
+  .content-us .image img {
+    transform: rotate(-6deg);
+    border: 3rem solid #f8f9fa;
+    box-shadow: 9px 10px 5px -7px #ced4da; }
+
+.content-us .text blockquote {
+  margin: 0;
+  padding: 1rem;
+  border-left: 0.5rem solid #ffafcc;
+  font-size: 2rem; }
+
+.tutorial {
+  margin-bottom: 5rem; }
+  @media (min-width: 768px) {
+    .tutorial {
+      display: flex;
+      gap: 5rem;
+      align-items: center; } }
+  .tutorial:last-of-type {
+    margin-bottom: 0; }
+  .tutorial:nth-child(even) .text {
+    order: -1; }
+  .tutorial .image, .tutorial .text {
+    flex: 1; }
+  .tutorial .text {
+    margin-top: 1rem; }
+    .tutorial .text h3 {
+      margin: 0;
+      text-align: left;
+      color: #ffafcc; }
+      .tutorial .text h3::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 2px;
+        background-color: #a2d2ff; }

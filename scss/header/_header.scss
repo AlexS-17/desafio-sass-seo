@@ -4,6 +4,8 @@
 .header{
     padding: 5rem 0;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include tablet{
         min-height: 70rem;
@@ -33,7 +35,7 @@
         opacity: .6;
     }
     
-    .contenido-header{
+    .header-content{
         position: relative;
 
         h1{
@@ -52,5 +54,17 @@
 // Header for each page
 
 .header-inicio{
-    background-image: url("/img/6799670.webp");
+    background-image: url(/img/6799670.webp);
+}
+
+.header-us{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/16/23/20/minecraft-1746541_1280.jpg");
+}
+
+.header-tutorial{
+    background-image: url(/img/background-tutorial.png);
+}
+
+.header-gallery{
+    background-image: url(/img/background-gallery.jpg);
 }
