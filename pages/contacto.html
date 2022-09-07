@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="/img/Icono.ico">
+    <!-- Font: Source Sans Pro, Roboto and Mukta -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@400;700&
+    family=Source+Sans+Pro:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Desafío SASS + SEO</title>
+  </head>
+  <body>
+
+    <!-- Starting Header -->
+    <header class="header header-contact">
+      <div class="header-content container">
+        <div class="nav-bar">
+            <!-- Logo -->
+          <div class="logo">
+            <img src="../img/Logo.png" alt="Logo Pixelex" />
+          </div>
+
+          <nav class="nav-principal">
+            <a href="../index.html">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./galeria.html">Galería</a>
+            <a href="./tutorial.html">Tutorial</a>
+            <a class="activo" href="#">Contacto</a>
+          </nav>
+        </div>
+
+        <div class="text-header">
+          <h1>Nunca dejes de diseñar</h1>
+        </div>
+      </div>
+    </header>
+    <!-- Finishing Header -->
+
+    <!-- Starting Contact -->
+    <main class="container contenido-principal">
+        <h2><span>Pixelex Chile</span> contactanos</h2>
+
+        <div class="content-contact">
+            <form class="form">
+
+                <div class="field">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required placeholder="Correo@example.com">
+                </div>
+
+                <div class="field">
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" required placeholder="+569 12345678">
+                </div>
+
+                <div class="field">
+                    <label for="text">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" required placeholder="Escribe aquí tu mensaje"></textarea>            
+                </div>
+
+                <div class="field">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+        
+    </main>
+
+    <!-- Starting Footer -->
+    <footer class="footer">
+        <div class="container footer-content bg-white">
+
+            <div class="footer-box about-us">
+                <h3>Sobre nosotros</h3>
+                <p>Quiénes somos</p>
+                <p>Políticas de privacidad</p>
+                <p>Términos de servicio</p>
+            </div>
+
+            <div class="footer-box support">
+                <h3>Soporte</h3>
+                <p>Preguntas frecuentes</p>
+                <p>Ayuda en línea</p>
+                <p>Confianza y seguridad</p>
+            </div>
+
+            <div class="footer-box social-media">
+                <h3>Redes sociales</h3>
+                <p>TikTok</p>
+                <p>Instagram</p>
+            </div>
+
+        </div>
+        <p class="copyright">Todos los derechos reservados, Pixelex Chile</p>
+    </footer>
+    <!-- Finishing Footer -->
+
+  </body>
+</html>

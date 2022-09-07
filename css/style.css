@@ -411,16 +411,19 @@ h3 {
           margin-top: 10rem; } }
 
 .header-inicio {
-  background-image: url(/img/6799670.webp); }
+  background-image: url(https://i.pinimg.com/originals/02/fe/62/02fe627668f0f9b589ad1d3b01ac6000.gif); }
 
 .header-us {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/16/23/20/minecraft-1746541_1280.jpg"); }
+  background-image: url(https://i.pinimg.com/originals/e7/2c/d1/e72cd1b3049474f7a2f496505a6773d2.gif); }
 
 .header-tutorial {
-  background-image: url(/img/background-tutorial.png); }
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3f8231112980585.601eb97c041dc.gif); }
 
 .header-gallery {
-  background-image: url(/img/background-gallery.jpg); }
+  background-image: url(https://64.media.tumblr.com/a4a72f471d3819344902860ac1d26eed/tumblr_pg0yx7yDkZ1uxrf48o1_640.gif); }
+
+.header-contact {
+  background-image: url(https://wallpaperaccess.com/full/1711593.gif); }
 
 .nav-principal {
   display: flex;
@@ -636,3 +639,46 @@ h3 {
         width: 50%;
         height: 2px;
         background-color: #a2d2ff; }
+
+@media (min-width: 768px) {
+  .content-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    background-image: url(/img/img-contact.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 40%; } }
+
+.form .field {
+  margin-bottom: 2rem; }
+  .form .field:last-of-type {
+    margin-bottom: 0; }
+  .form .field label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700; }
+  .form .field textarea {
+    width: 100%;
+    padding: 1rem;
+    border: .5rem solid;
+    border-radius: 1rem;
+    color: #ffafcc; }
+  .form .field input:not([type="submit"]), .form .field select {
+    width: 100%;
+    padding: 1rem;
+    border: .5rem solid;
+    border-radius: 1rem;
+    color: #ffafcc; }
+  .form .field input[type="submit"] {
+    background-color: #ffafcc;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #f8f9fa;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .form .field input[type="submit"]:hover {
+      cursor: pointer; }

@@ -1,0 +1,60 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.content-contact{
+    @include tablet{
+        @include grid(2, $separacion);
+        background-image: url(/img/img-contact.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 40%;
+    }
+}
+
+.form{
+    .field{
+        margin-bottom: 2rem;
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+
+        label{
+            text-transform: uppercase;
+            display: block;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        textarea{
+            width: 100%;
+            padding: 1rem;
+            border: .5rem solid;
+            border-radius: 1rem;
+            color: $primary;                      
+        }
+
+        input:not([type="submit"]), select{
+            width: 100%;
+            padding: 1rem;
+            border: .5rem solid;
+            border-radius: 1rem;
+            color: $primary;
+        }
+
+        input[type="submit"]{
+            background-color: $primary;
+            width: 100%;
+            border-radius: 1rem;
+            padding: 1rem;
+            color: $white;
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
