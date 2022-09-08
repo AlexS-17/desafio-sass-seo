@@ -1,0 +1,35 @@
+-En todos los HTML agregué estas palabras clave: y descripciones:
+
+    Index: 
+    
+    Title: Pixelex | Inicio
+    Keywords: "Pixelex, pixelart, hamabeads, perlerbeads, diseño, decoración",
+    Description: "Pixelex Chile es la nueva página enfocada al pixel art de hama beads".
+    
+    
+    Nosotros: 
+    
+    Title: Pixelex | Quiénes somos
+    Keywords: "nosotros, trabajo, proyecto, emprendimiento, información, servicios",
+    Description: "Conoce nuestro equipo de trabajo y el arte que hacemos".
+    
+    
+    Galería: 
+    
+    Title: Pixelex | Galería de proyectos
+    Keywords: "Pixelex, pixelart, hamabeads, imágenes, galería, decoración",
+    Description: "Mira nuestra galería de imagenes e inspirate para crear tus propios diseños".
+    
+    
+    Tutorial: 
+    
+    Title: Pixelex | Crea tus propios diseños
+    Keywords: "Pixelex, tutorial, guía, consejos, diseño, decoración",
+    Description: "Crea tus propios diseños con pixel art de hama beads".
+    
+    
+    Contacto: 
+    
+    Title: Pixelex | Contactanos
+    Keywords: "contacto, ayuda, atención, cliente, consulta, sugerencia".
+    Description: "Ponte en contacto con nosotros para conocer más sobre el pixel art de hama beads".

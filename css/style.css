@@ -352,10 +352,10 @@ h1, h2, h3 {
   line-height: 1.5; }
 
 h1 {
-  font-size: 4rem; }
+  font-size: 2,8rem; }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   color: #ffafcc; }
   h2 span {
     color: #a2d2ff;
@@ -371,7 +371,7 @@ h2 {
     background-size: 10rem; }
 
 h3 {
-  font-size: 3.2rem; }
+  font-size: 2.2rem; }
 
 .header {
   padding: 5rem 0;
@@ -436,7 +436,7 @@ h3 {
   .nav-principal a {
     text-align: center;
     color: #f8f9fa;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 1rem; }
