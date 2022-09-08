@@ -1,0 +1,17 @@
+@mixin titulo-primario ($main-font){
+    font-family: $main-font;
+    margin: 0 0 $separacion 0;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+%tittle-primary{
+    font-family: $main-font;
+    margin: 0 0 $separacion 0;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+}
+

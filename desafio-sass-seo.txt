@@ -33,3 +33,11 @@
     Title: Pixelex | Contactanos
     Keywords: "contacto, ayuda, atención, cliente, consulta, sugerencia".
     Description: "Ponte en contacto con nosotros para conocer más sobre el pixel art de hama beads".
+
+
+
+    Multimedia:
+
+    -Reduje el tamaño de varias imágenes, las que eran más pesadas solo las reemplacé por otras.
+    -Cambié el formato de algunas imágenes de .JFIF a .PNG, ya que tenía problemas para comprimir las imágenes en ese formato.
+    -Para los fondos de cada página utilicé el link de unas imágenes en formato .GIF para que el proyecto no me quedara tan pesado.
