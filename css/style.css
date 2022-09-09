@@ -338,6 +338,18 @@ ul {
   padding: 0;
   margin: 0; }
 
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-track {
+  border: 1.5px solid #212529;
+  box-shadow: inset 0 0 2.5px 2px #ced4da; }
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #a2d2ff, #ffafcc);
+  border-radius: 5px;
+  border: 0.5px solid #212529; }
+
 .text-center {
   text-align: center; }
 
@@ -352,11 +364,7 @@ h1, h2, h3 {
   line-height: 1.5; }
 
 h1 {
-  font-family: 3rem;
-  margin: 0 0 5rem 0;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.5; }
+  font-size: 2.8rem; }
 
 h2 {
   font-size: 2.6rem;
@@ -593,8 +601,9 @@ h3 {
     font-size: 2.4rem;
     color: #a2d2ff; }
   .footer-box p, .footer-box a {
-    font-size: 2rem;
-    margin: 0; }
+    font-size: 1.8rem;
+    margin: 0;
+    color: #343a40; }
 
 @media (min-width: 768px) {
   .content-us {
@@ -649,7 +658,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
-    background-image: url(https://www.pinterest.cl/pin/1007328641628455844/);
+    background-image: url(../img/img-contact.png);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 40%; } }

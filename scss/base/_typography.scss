@@ -1,4 +1,3 @@
-@import "./extend";
 h1, h2, h3{
     font-family: $main-font;
     margin: 0 0 $separacion 0;
@@ -8,7 +7,7 @@ h1, h2, h3{
 }
 
 h1{
-    @include titulo-primario(3rem);
+    font-size: 2.8rem;
 }
 
 h2{
